@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Parisienne&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+:root {
+ background-color: #DAB9B9;
+}
+body {
+  font-family: 'Poppins';
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+@theme {
+  /* Colors */
+  --color-main-bg: #DAB9B9;
+  --color-plum: #8C6A6B;
+  --color-warm-brown: #5B4747;
+  --color-dark-text: #2D2D2D;
+
+  /* Extra Menu Bar Colors */
+  --color-menu-brown-gray: #4B3F3F;
+  --color-menu-rosy-warm: #A67C7C;
+  --color-menu-mocha: #6B4E4E;
+  --color-menu-light-cream: #FDF6F6;
+  --color-menu-muted-wine: #7E5E60;
+
+  /* text color */
+  --color-on-rosy: #FFFFFF;
+  --color-soft-white: #FDF6F6;
+  --color-warm-blush: #FAE3E3;
+
+  /* Fonts */
+   --font-logo: 'Parisienne', cursive;
+   --font-nav: 'Poppins', sans-serif;
+   --font-title: 'Playfair Display', serif;
+   --font-subtitle: 'Lora', serif;
+ }
+
+@layer utilities {
+
+  .text-headings {
+    font-family: 'Lora';
+    font-size:30px ;
+  }
+  .font-logo {
+    font-family: var(--font-logo);
+  }
+
+  .font-nav {
+    font-family: var(--font-nav);
+  }
+
+  .font-title {
+    font-family: var(--font-title);
+  }
+
+  .font-subtitle {
+    font-family: var(--font-subtitle);
+  }
+.mask-image-fade {
+    mask-image: linear-gradient(to right, black 80%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, black 80%, transparent 100%);
+  }
+}
