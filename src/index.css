@@ -38,23 +38,19 @@ body {
  }
 
 @layer utilities {
-
   .text-headings {
     font-family: 'Lora';
-    font-size:30px ;
+    font-size:30px;
   }
   .font-logo {
     font-family: var(--font-logo);
   }
-
   .font-nav {
     font-family: var(--font-nav);
   }
-
   .font-title {
     font-family: var(--font-title);
   }
-
   .font-subtitle {
     font-family: var(--font-subtitle);
   }
@@ -63,3 +59,4 @@ body {
     -webkit-mask-image: linear-gradient(to right, black 80%, transparent 100%);
   }
 }
+
