@@ -1,5 +1,6 @@
 {
   "name": "landing",
+  "homepage": "https://hija-happy.github.io/WedWise/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,9 +12,11 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.3",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.487.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
     "tailwindcss": "^4.1.3"
