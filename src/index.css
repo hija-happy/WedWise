@@ -3,17 +3,7 @@
 
 :root {
  background-color: #DAB9B9;
-}
-body {
-  font-family: 'Poppins';
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-@theme {
-  /* Colors */
+ /* Colors */
   --color-main-bg: #DAB9B9;
   --color-plum: #8C6A6B;
   --color-warm-brown: #5B4747;
@@ -36,7 +26,15 @@ body {
    --font-nav: 'Poppins', sans-serif;
    --font-title: 'Playfair Display', serif;
    --font-subtitle: 'Lora', serif;
- }
+}
+body {
+  font-family: 'Poppins';
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
 
 @layer utilities {
   .text-headings {
